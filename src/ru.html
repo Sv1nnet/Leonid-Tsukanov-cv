@@ -37,7 +37,8 @@
 
       <div class="header__contacts">
         <p class="text contacts__text">Россия, Москва.</p>
-        <p class="text contacts__text">Telegram, WhatsApp:</p>
+        <p class="text contacts__text"><a href="https://t.me/Sv1nnet">Telegram</a>, <a
+            href="https://wa.me/79251804185">WhatsApp</a>:</p>
         <p class="text contacts__text contacts__phone">+7 (925) 180-41-85</p>
         <a href="https://www.linkedin.com/in/leonid-tsukanov-168805178" class="contact-link">LinkedIn</a>
         <a href="mailto:Leonid.Tsukanov.work@gmail.com" class="contact-link">Leonid.Tsukanov.work@gmail.com</a>
@@ -52,7 +53,7 @@
             <span class="text">Активно использовал:</span>
             <li class="ul__list-item">
               <span class="text">
-                <span class="text_fw_bold">JavaScript</span> - es5-es11, Promise, async/await;
+                <span class="text_fw_bold">JavaScript</span> - ES6+, Promise, async/await;
               </span>
             </li>
             <li class="ul__list-item">
@@ -67,7 +68,7 @@
             </li>
             <li class="ul__list-item">
               <span class="text">
-                <span class="text_fw_bold">SASS, SCSS</span>;
+                <span class="text_fw_bold">SASS, SCSS, Styled Components, CSS Modules</span>;
               </span>
             </li>
             <li class="ul__list-item">
@@ -77,17 +78,18 @@
             </li>
             <li class="ul__list-item">
               <span class="text">
-                <span class="text_fw_bold">StyledComponents</span>;
+                <span class="text_fw_bold">React.js</span> - class components, hooks, Redux/RTK/RTK-Query, React-Query,
+                Reselect, NextJS;
               </span>
             </li>
             <li class="ul__list-item">
               <span class="text">
-                <span class="text_fw_bold">React.js</span> - React hooks, Redux/Redux toolkit, Reselect, NextJS;
+                <span class="text_fw_bold">Jest, Enzyme, React Testing Library</span>;
               </span>
             </li>
             <li class="ul__list-item">
               <span class="text">
-                <span class="text_fw_bold">Jest, Enzyme</span>;
+                <span class="text_fw_bold">Git</span>
               </span>
             </li>
             <li class="ul__list-item">
@@ -113,12 +115,7 @@
           </ul>
 
           <ul class="ul">
-            <span class="text">Знаю поверхностно/редко использовал:</span>
-            <li class="ul__list-item">
-              <span class="text">
-                <span class="text_fw_bold">React Testing Library</span>;
-              </span>
-            </li>
+            <span class="text">Использовал периодически:</span>
             <li class="ul__list-item">
               <span class="text">
                 <span class="text_fw_bold">Vue.js</span>;
@@ -131,13 +128,7 @@
             </li>
             <li class="ul__list-item">
               <span class="text">
-                <span class="text_fw_bold">Git</span> - чаще всего использовал "checkout", "commit", "add" и другие
-                часто используемые команды;
-              </span>
-            </li>
-            <li class="ul__list-item">
-              <span class="text">
-                <span class="text_fw_bold">Webpack, Gulp</span>;
+                <span class="text_fw_bold">Vite, Webpack, Gulp</span>;
               </span>
             </li>
             <li class="ul__list-item">
@@ -178,12 +169,12 @@
       </div>
       <div class="work main__experience">
         <h2 class="section-title main__section-title">Опыт работы</h2>
-        <br>
-        <span class="text"><span class="text_fw_bold">авг</span> 2020 - ...</span>
+
+        <span class="text text_mt_16"><span class="text_fw_bold">авг</span> 2020 - ...</span>
         <span class="text text_fw_bold">ООО "Интермобилити"</span>
         <span class="text">Фронтэнд разработчик</span>
-        <br>
-        <span class="text">
+
+        <span class="text text_mt_16">
           Общие задачи:
         </span>
         <ul class="work__projects-ul ul">
@@ -229,7 +220,7 @@
           </ul>
 
           <span class="text">
-            Разработка административных панели на <span class="text_fw_bold">React</span>(преимущественно) и <span
+            Разработка административных панелей на <span class="text_fw_bold">React</span>(преимущественно) и <span
               class="text_fw_bold">Vue</span>:
           </span>
           <ul class="work__projects-ul">
@@ -247,8 +238,13 @@
                 url параметрами;</span>
             </li>
             <li class="ul__list-item">
+              <span class="text">разработка UI-Kit'а с <span class="text_fw_bold">react-hook-form;</span></span>
+            </li>
+            <li class="ul__list-item">
               <span class="text">работа с картами <span class="text_fw_bold">2Gis</span> и <span
-                  class="text_fw_bold">Yandex</span>;</span>
+                  class="text_fw_bold">Yandex</span>, в т.ч. создание редактора объектов на карте на <span
+                  class="text_fw_bold">2gis/mapgl</span> - добавление, рисование, перемещение, удаление объектов и их
+                вершин, вырезание полигонов, растягивание и вращение геометрий;</span>
             </li>
             <li class="ul__list-item">
               <span class="text">настройка линтера и приведение кодовой базы и файловой структуры в порядок;</span>
@@ -270,15 +266,17 @@
 
           <div class="projects__project-wrapper">
             <h3 id="trello-like" class="projects__title">My Simple Workout Tracker</h3>
-            <span class="projects__title-explanation"> - личный трекер тренировок.</span>
+            <span class="projects__title-explanation"> - личный трекер тренировок. (В разработке)</span>
 
-            <span class="text text_mt_8">Ориентированное на использование на смартфонах веб-приложение на базе
-              <span class="text_fw_bold">NextJS, NodeJS(Express), MongoDB</span>. Разработка для собственных нужд, т.к.
+            <span class="text text_mt_4">Ориентированное на использование на смартфонах веб-приложение на базе
+              <span class="text_fw_bold">React, Capacitor, IndexedDB, NodeJS(Express), MongoDB</span>. Проект для личных
+              нужд, т.к.
               не нашел ничего подходящего в Play Store. Можно создавать упражнения, составлять тренировки, отслеживать
-              прогресс. Разработка еще в процессе, однако большинство функционала уже реализована. В будущем планирую
-              перевести на <span class="text_fw_bold">React Native</span>.</span>
+              прогресс. Разработка еще в процессе, однако большинство функционала уже реализована. В данный момент
+              мигрирую проект на <span class="text_fw_bold">Capacitor</span> с дописыванием плагинов на Java и SwiftUI и
+              планирую релиз в RuStore, Play Store и App Store.</span>
 
-            <span class="text text_mt_8">GitHub - <a target="_blank"
+            <span class="text text_mt_4">GitHub - <a target="_blank"
                 href="https://github.com/Sv1nnet/my-simple-workout-tracker"
                 class="projects__link">https://github.com/Sv1nnet/my-simple-workout-tracker</a></span>
 
@@ -286,24 +284,24 @@
 
           <div class="projects__project-wrapper">
             <h3 id="trello-like" class="projects__title">Trello-like</h3>
-            <span class="projects__title-explanation"> - канбан доска.</span>
+            <span class="projects__title-explanation"> - канбан доска. (2020 г.)</span>
 
-            <span class="text text_mt_8">Мое первое веб-приложение. Повторяет большую часть функционала Trello. Написано
+            <span class="text text_mt_4">Мое первое веб-приложение. Повторяет большую часть функционала Trello. Написано
               на
               <span class="text_fw_bold">React, Redux, NodeJS(Express), MongoDB(mongoose)</span>. Реализовал <span
                 class="text_fw_bold">Drag and Drop</span> функциональность без сторонних библиотек и HTML Drag and Drop
               API.</span>
 
-            <span class="text text_mt_8">GitHub - <a target="_blank" href="https://github.com/Sv1nnet/trello-react-app"
+            <span class="text text_mt_4">GitHub - <a target="_blank" href="https://github.com/Sv1nnet/trello-react-app"
                 class="projects__link">https://github.com/Sv1nnet/trello-react-app</a></span>
 
           </div>
 
           <div class="projects__project-wrapper">
             <h3 id="trello-like" class="projects__title">E-commerce</h3>
-            <span class="projects__title-explanation"> - интернет магазин.</span>
+            <span class="projects__title-explanation"> - интернет магазин. (2020 г.)</span>
 
-            <span class="text text_mt_8">Учебный проект, в котором я изучал
+            <span class="text text_mt_4">Учебный проект, в котором я изучал
               <span class="text_fw_bold">TypeScript</span> и пробовал его использовать с <span
                 class="text_fw_bold">React/Redux</span>. Стилизацию делал по <span class="text_fw_bold">BEM</span>.
               Небольшой интернет-магазин мобильных телефонов. Можно установить фильтр по товарам, есть простая валидация
@@ -311,11 +309,11 @@
               Для функционирования формы использовал стороннюю библиотеку <span
                 class="text_fw_bold">react-hook-form</span>.</span>
 
-            <span class="text text_mt_8">Ссылка - <a target="_blank"
+            <span class="text text_mt_4">Посмотреть - <a target="_blank"
                 href="https://sv1nnet.github.io/e-commerce--react--typescript/"
                 class="projects__link">https://sv1nnet.github.io/e-commerce--react--typescript/</a></span>
 
-            <span class="text text_mt_8">GitHub - <a target="_blank"
+            <span class="text text_mt_4">GitHub - <a target="_blank"
                 href="https://github.com/Sv1nnet/e-commerce--react--typescript"
                 class="projects__link">https://github.com/Sv1nnet/e-commerce--react--typescript</a></span>
           </div>
@@ -324,8 +322,7 @@
       </div>
       <div class="about main__about">
         <h2 class="section-title main__section-title">Обо мне</h2>
-        <br>
-        <p class="text">
+        <p class="text text_mt_16">
           Начинал с C# и Unity3d в 2016. В планах была разработка игры под мобильные платформы.
           Спустя пол года понял, что хочу заниматься разработкой профессионально и начал изучать Front-end.
         </p>
@@ -334,15 +331,15 @@
         <ul class="ul about__ul">
           <li class="ul__list-item"><span class="text">2017 - начало обучения по бесплатным материалам в интернете и
               чтение книг по <span class="text_fw_bold">JS</span>;</span></li>
-          <li class="ul__list-item"><span class="text">через пол года написал первый лендинг для бизнеса брата;</span>
+          <li class="ul__list-item"><span class="text">дек 2017 - написал первый лендинг для бизнеса брата;</span>
           </li>
-          <li class="ul__list-item"><span class="text">через год закончил и опубликовал первый пет-проект -
+          <li class="ul__list-item"><span class="text">июнь 2018 - закончил и опубликовал первый пет-проект -
               психологический опросник (МПДО) А. Е. Личко;</span></li>
-          <li class="ul__list-item"><span class="text">через полтора года закончил довольно крупный пет-проект <span
+          <li class="ul__list-item"><span class="text">апрель 2020 - закончил довольно крупный пет-проект <span
                 class="text_fw_bold">Trello-like,</span>
               который я сделал для портфолио и в рамках обучения <span class="text_fw_bold">MERN</span> стеку;</span>
           </li>
-          <li class="ul__list-item"><span class="text">Через два года получил первую работу Front-end разработчиком,
+          <li class="ul__list-item"><span class="text">август 2020 - получил первую работу Front-end разработчиком,
               выполнив тестовое задание на позицию
               <span class="text_fw_bold">Middle</span>;</span></li>
         </ul>
